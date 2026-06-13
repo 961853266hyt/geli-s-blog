@@ -1,13 +1,13 @@
 export default {
-    singleQuote: true,
-    useTabs: true,
-    plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
-    overrides: [
-        {
-            files: '*.astro',
-            options: {
-                parser: 'astro',
-            },
-        },
-    ],
+	singleQuote: true,
+	useTabs: true,
+	plugins: ['prettier-plugin-astro', 'prettier-plugin-tailwindcss'],
+	overrides: [
+		{
+			files: '*.astro',
+			options: {
+				parser: 'astro',
+			},
+		},
+	],
 };
