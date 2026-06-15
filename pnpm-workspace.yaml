@@ -1,4 +1,3 @@
-pnpm:
-  allowBuilds:
-    esbuild: true
-    sharp: true
+allowBuilds:
+  esbuild: true
+  sharp: true

@@ -2,6 +2,7 @@
 	"name": "geli-s-blog",
 	"type": "module",
 	"version": "0.0.1",
+	"packageManager": "pnpm@11.5.2",
 	"engines": {
 		"node": ">=22.12.0"
 	},
@@ -13,12 +14,6 @@
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
 		"tsc": "pnpm exec tsc --noEmit"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"esbuild",
-			"sharp"
-		]
 	},
 	"dependencies": {
 		"@astrojs/mdx": "^6.0.2",
